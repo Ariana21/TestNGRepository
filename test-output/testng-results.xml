@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Datapro Suite" duration-ms="41509" started-at="2020-07-15T13:15:54 PDT" finished-at="2020-07-15T13:16:36 PDT">
+    <groups>
+    </groups>
+    <test name="Datapro test" duration-ms="41509" started-at="2020-07-15T13:15:54 PDT" finished-at="2020-07-15T13:16:36 PDT">
+      <class name="classwork.DataProviderDemo">
+        <test-method status="PASS" signature="launch()[pri:0, instance:classwork.DataProviderDemo@7225790e]" name="launch" duration-ms="10756" started-at="2020-07-15T13:15:54 PDT" finished-at="2020-07-15T13:16:05 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:1, instance:classwork.DataProviderDemo@7225790e]" name="search" duration-ms="7288" started-at="2020-07-15T13:16:05 PDT" data-provider="SData" finished-at="2020-07-15T13:16:12 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T-Shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:1, instance:classwork.DataProviderDemo@7225790e]" name="search" duration-ms="7104" started-at="2020-07-15T13:16:12 PDT" data-provider="SData" finished-at="2020-07-15T13:16:19 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:1, instance:classwork.DataProviderDemo@7225790e]" name="search" duration-ms="7715" started-at="2020-07-15T13:16:19 PDT" data-provider="SData" finished-at="2020-07-15T13:16:27 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shorts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:1, instance:classwork.DataProviderDemo@7225790e]" name="search" duration-ms="7638" started-at="2020-07-15T13:16:27 PDT" data-provider="SData" finished-at="2020-07-15T13:16:35 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeDriver()[pri:5, instance:classwork.DataProviderDemo@7225790e]" name="closeDriver" duration-ms="978" started-at="2020-07-15T13:16:35 PDT" finished-at="2020-07-15T13:16:36 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- classwork.DataProviderDemo -->
+    </test> <!-- Datapro test -->
+  </suite> <!-- Datapro Suite -->
+</testng-results>

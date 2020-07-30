@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Param Suite]">
+  <parameter name="ssearch_string" value="T-Shirts"/>
+  <parameter name="site_url" value="http://automationpractice.com/index.php"/>
+  <test thread-count="5" name="Param test(failed)">
+    <classes>
+      <class name="classwork.ParametersDemo">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- classwork.ParametersDemo -->
+    </classes>
+  </test> <!-- Param test(failed) -->
+</suite> <!-- Failed suite [Param Suite] -->
